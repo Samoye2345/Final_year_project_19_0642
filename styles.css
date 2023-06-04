@@ -1,0 +1,274 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.general  {
+  width: 100%;
+  height: 100vh;
+  background-image: url("images/background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
+  overflow: scroll;
+
+}
+
+#title  {
+  color: #fff;
+  padding: 3% 5%;
+}
+
+.bubble img{
+  width: 50px;
+  animation: buble_change 7s linear infinite;
+}
+.bubble {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: -70px;
+}
+
+@keyframes buble_change {
+  0%  {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+
+  50%  {
+
+    opacity: 1;
+  }
+  70%  {
+
+    opacity: 1;
+  }
+  100%  {
+    transform: translateY(-80vh);
+    opacity: 0;
+  }
+}
+
+
+.bubbles:nth-child(1) {
+  animation-delay: 2s;
+}
+
+.bubbles:nth-child(2) {
+  animation-delay: 4s;
+}
+
+.bubbles:nth-child(3) {
+  animation-delay: 5.5s;
+}
+
+.bubbles:nth-child(4) {
+  animation-delay: 2s;
+}
+
+.bubbles:nth-child(5) {
+  animation-delay: 1s;
+}
+
+.bubbles:nth-child(6) {
+  animation-delay: 3s;
+}
+
+
+.text {
+  position: absolute;
+  top: 80%;
+  bottom: 50px;
+  left: 50px;
+  margin-top: 50px;
+}
+.text h1  {
+  font-family: sans-serif;
+  color: transparent;
+  -webkit-text-stroke: 1px #fff;
+  background: url(images/bubble.png);
+  -webkit-background-clip: text;
+  background-position: 0 0;
+  animation: name 6s linear infinite;
+  text-align: center;
+
+}
+.text p {
+  color: white;
+}
+
+@keyframes name {
+    100%  {
+      background-position: 300px 10px;
+    }
+}
+
+.buttons  {
+
+}
+
+.buttons button {
+  margin-right: 10px;
+}
+
+.navbar-nav li  {
+  margin-right: 20px;
+}
+
+.login, .signUp {
+  height: 250px;
+  width: 250px;
+  background-color:white;
+  transform: translateX(50%);
+  position: absolute;
+  right: 50%;
+  margin-bottom: 100px;
+  background-color:rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  text-align: center;
+}
+
+.signUp {
+height: 320px;
+
+}
+br  {
+  height: 20px;
+}
+
+span input  {
+  height: 40px;
+  width: 80%;
+  margin: 20px 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-width: 0 0 1px 0;
+  border-color: gray;
+  color: white;
+  text-align: center;
+}
+
+input:hover, input:active  {
+  border-width: 0 0 0 0;
+  border-color: gray;
+}
+
+span i  {
+position: absolute;
+top: -50%;
+transform: translateY(-50%);
+
+}
+
+.login a, .signUp a  {
+  text-decoration: none;
+  color: white;
+}
+
+.middle-container {
+  text-align: center;
+    color: #F9F5F6;
+}
+
+div img {
+  border-radius: 50%;
+}
+
+.Apply-here {
+  margin: 100px 30px 0;
+  text-decoration: none;
+  padding: 15px 20px;
+  color: #F9F5F6;
+  border-radius: 15px;
+  font-size: 15px;
+  border: 1px solid white;
+}
+.Apply-here:hover {
+
+  background: rgba(173,218,203,0.9);
+  transition: 1s;
+  border: solid gray .5px;
+}
+
+.middle-container h1  {
+  padding-bottom: 50px;
+
+}
+
+.carousel-item  {
+  padding: 0 50px;
+}
+.carousel-item img  {
+  border-radius: 10px;
+}
+
+.contact  {
+  margin: 0  auto 50px;
+  text-align: center;
+  color: white;
+}
+
+.contact input  {
+  height: 30px;
+}
+
+.contact input, .contact textarea  {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-color: rgba(0, 0, 0, 0.5);
+  margin: 15px auto;
+  color: white;
+}
+
+.contact label  {
+
+}
+
+
+.Agriculture-picture {
+  border: none;
+  background-color: none;
+  height: 100%;
+  width: 25%;
+
+}
+.Education-picture {
+  border: none;
+  background-color: none;
+  height: 100%;
+  width: 25%;
+
+
+}
+.Power-picture {
+  border: none;
+  background-color: none;
+  height: 100%;
+  width: 25%;
+
+
+}
+.Investment-picture {
+  border: none;
+  background-color: none;
+  height: 100%;
+  width: 25%;
+
+
+}
+.Real-Estate-picture {
+  border: none;
+  background-color: none;
+  height: 100%;
+  width: 25%;
+
+
+}
+.material_1,.material_2,.material_3,.material_4,.material_5 {
+  height: 170px;
+  width: 50%;
+  margin: 50px auto;
+  margin-bottom: 100px;
+
+}
